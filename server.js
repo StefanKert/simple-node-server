@@ -5,7 +5,6 @@ const port = process.env.PORT;
 const runningMessage = 'Server is running on port ' + port;
 
 app.get('/', function (req, res){
-    console.log('API was successfully requested');
     res.send(runningMessage);
 });
 
